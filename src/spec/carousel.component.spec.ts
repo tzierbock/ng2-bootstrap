@@ -43,7 +43,7 @@ function expectActiveSlides(nativeEl:HTMLDivElement, active:boolean[]):void {
   }
 }
 
-fdescribe('Component: Carousel', () => {
+describe('Component: Carousel', () => {
   let fixture:ComponentFixture<any>;
   let context:TestCarouselComponent;
   let element:any;
