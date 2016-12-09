@@ -6,16 +6,19 @@
   </h1>
 </div>
 
+
+<!-- remove this -->
 <div id="content" class="content-box">
   <p class="description" [innerHTML]="titleDoc"></p>
   <div id="example" class="section">
-    <h3>Example</h3>
+    <h3>Examples</h3>
 
     <div class="item">
       <ng-content></ng-content>
     </div>
   </div>
 
+  <!-- remove this -->
   <div id="markup" class="section" *ngIf="html || ts">
     <h3>Markup</h3>
 
@@ -31,6 +34,7 @@
     </div>
   </div>
 
+  <!-- remove this -->
   <div id="api" class="section" *ngIf="doc">
     <h3>Api</h3>
     <div class="item list-container" [innerHTML]="doc" ngNonBindable></div>
